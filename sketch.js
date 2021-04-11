@@ -10,7 +10,7 @@ var treeObj, stoneObj,groundObject;
 var mango1,mango2,mango3,mango4,mango5,mango6,mango7,mango8,mango9,mango10,mango11,mango12;
 var world,boy;
 
-//Declare launcherObject and launchForce variable here
+//Declara aquí las variables launcherObject y launchForce
 
 
 function preload(){
@@ -39,7 +39,7 @@ function setup() {
 
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
-  //create launcherObject here
+  //crea aquí el launcherObject 
 
 
 	Engine.run(engine);
@@ -49,7 +49,7 @@ function draw() {
 
   background(230);
   textSize(25);
-  text("Press Space to get a second Chance to Play!!",50 ,50);
+  text("¡Presiona Barra Espaciadora para tener una segunda Oportunidad para Jugar!",50 ,50);
   image(boy ,200,340,200,300);
   
 
@@ -69,7 +69,7 @@ function draw() {
 
   stoneObj.display();
   groundObject.display();
-  // display launcher object here
+  // muestra el objeto lanzador aquí
     
 
 
@@ -87,13 +87,13 @@ function draw() {
   detectollision(stoneObj,mango12);
 }
 
-//create mouseDragged function here
+//crea aquí la función mouseDragged
 
 
-//create mouseReleased function here
+//crea aquí la función mouseReleased 
 
 
-//create keyPressed function here
+//crea aquí la función keyPressed 
 
 
   function detectollision(lstone,lmango){
